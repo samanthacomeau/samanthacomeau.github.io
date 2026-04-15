@@ -1,0 +1,32 @@
+[
+    {
+        "src": "images/applepicking.jpg",
+        "camera": "Sony",
+        "caption": "Soft morning light"
+    },
+    {
+        "src": "images/pickleball.jpg",
+        "camera": "Canon",
+        "caption": "City textures"
+    },
+    {
+        "src": "https://picsum.photos/300/350",
+        "camera": "iPhone",
+        "caption": "Quick capture"
+    },
+    {
+        "src": "https://picsum.photos/300/600",
+        "camera": "Sony",
+        "caption": "Moody shadows"
+    },
+    {
+        "src": "https://picsum.photos/300/450",
+        "camera": "Canon",
+        "caption": "Architectural lines"
+    },
+    {
+        "src": "https://picsum.photos/300/550",
+        "camera": "iPhone",
+        "caption": "Everyday detail"
+    }
+]
