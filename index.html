@@ -128,6 +128,14 @@
         <select id="cameraFilter">
             <option value="all">All Cameras</option>
         </select>
+
+        <select id="locationFilter">
+            <option value="all">All Locations</option>
+        </select>
+
+        <select id="tagFilter">
+            <option value="all">All Tags</option>
+        </select>
     </header>
 
     <div class="grid" id="grid"></div>
@@ -135,46 +143,70 @@
     <script>
         const grid = document.getElementById("grid");
         let filter = document.getElementById("cameraFilter");
-        let currentFilter = "all";
         let data = [];
 
-        function populateFilters() {
-            // Normalize + dedupe
-            const cameras = [
-                ...new Set(
-                    data.map(item =>
-                        item.camera?.trim().toLowerCase()
-                    )
-                )
-            ];
-            console.log(cameras);
+        let currentFilters = {
+            camera: "all",
+            location: "all",
+            tag: "all",
+            search: ""
+        };
 
-            // Sort for nicer UX
-            cameras.sort();
+        function uniqueValues(key) {
+            const values = new Set();
 
-            // Add back with proper display casing
-            cameras.forEach(cam => {
-                const option = document.createElement("option");
-                option.value = cam;
-                option.textContent = cam.charAt(0).toUpperCase() + cam.slice(1);
-                filter.appendChild(option);
+            data.forEach(item => {
+                if (key === "tags") {
+                    (item.tags || []).forEach(t => values.add(t));
+                } else {
+                    values.add(item[key]);
+                }
             });
-            console.log(cameras);
+
+            return [...values].filter(Boolean).sort();
+        }
+
+        function populateFilters() {
+            const cameraSel = document.getElementById("cameraFilter");
+            const locationSel = document.getElementById("locationFilter");
+            const tagSel = document.getElementById("tagFilter");
+
+            // Cameras
+            uniqueValues("camera").forEach(val => {
+                const opt = document.createElement("option");
+                opt.value = val;
+                opt.textContent = val;
+                cameraSel.appendChild(opt);
+            });
+
+            // Locations
+            uniqueValues("location").forEach(val => {
+                const opt = document.createElement("option");
+                opt.value = val;
+                opt.textContent = val;
+                locationSel.appendChild(opt);
+            });
+
+            // Tags
+            uniqueValues("tags").forEach(val => {
+                const opt = document.createElement("option");
+                opt.value = val;
+                opt.textContent = val;
+                tagSel.appendChild(opt);
+            });
         }
 
         async function loadData() {
             try {
                 const response = await fetch("data.json");
                 data = await response.json();
-                resetGrid(); // render after loading
-
+                render();
                 populateFilters();
             } catch (err) {
                 console.error("Failed to load JSON:", err);
             }
         }
         loadData();
-
 
         function createCard(item) {
             const card = document.createElement("div");
@@ -197,31 +229,54 @@
             return card;
         }
 
-        function getFilteredData() {
-            if (currentFilter === "all") return data;
-            return data.filter(item => item.camera.toLowerCase() === currentFilter.toLowerCase());
+        function matchesTags(photo, tag) {
+            if (tag === "all") return true;
+            return (photo.tags || []).includes(tag);
         }
 
-        function loadPins() {
-            const filtered = getFilteredData();
-
-            for (let i = 0; i < filtered.length; i++) {
-                console.log(filtered[i]);
-                grid.appendChild(createCard(filtered[i]));
-            }
-        }
-
-        function resetGrid() {
+        function render() {
+            const grid = document.getElementById("grid");
             grid.innerHTML = "";
-            loadPins();
+
+            const filtered = data.filter(item => {
+                const matchCamera =
+                    currentFilters.camera === "all" ||
+                    item.camera === currentFilters.camera;
+
+                const matchLocation =
+                    currentFilters.location === "all" ||
+                    item.location === currentFilters.location;
+
+                const matchTag = matchesTags(item, currentFilters.tag);
+
+                const matchSearch =
+                    currentFilters.search === "" ||
+                    (item.caption || "")
+                        .toLowerCase()
+                        .includes(currentFilters.search.toLowerCase());
+
+                return matchCamera && matchLocation && matchTag && matchSearch;
+            });
+
+            filtered.forEach(item => {
+                grid.appendChild(createCard(item));
+            });
         }
 
-        filter.addEventListener("change", (e) => {
-            currentFilter = e.target.value;
-            resetGrid();
+        document.getElementById("cameraFilter").addEventListener("change", (e) => {
+            currentFilters.camera = e.target.value;
+            render();
         });
 
-        loadPins();
+        document.getElementById("locationFilter").addEventListener("change", (e) => {
+            currentFilters.location = e.target.value;
+            render();
+        });
+
+        document.getElementById("tagFilter").addEventListener("change", (e) => {
+            currentFilters.tag = e.target.value;
+            render();
+        });
     </script>
 
 </body>

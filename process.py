@@ -9,7 +9,7 @@ from prompt_toolkit.completion import WordCompleter
 
 PHOTO_DIR = "images"
 REVIEW_DIR = "review"
-OUTPUT_JSON = "photos.json"
+OUTPUT_JSON = "data.json"
 
 SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png", ".heic")
 

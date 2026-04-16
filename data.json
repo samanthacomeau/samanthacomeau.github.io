@@ -1,6 +1,6 @@
 [
   {
-    "src": "images/IMG_6434(1).HEIC",
+    "src": "images/IMG_6434(1).jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Acadia National Park",
     "location": "Maine USA",
@@ -10,7 +10,7 @@
   },
   {
     "src": "images/IMG_6735(1).JPG",
-    "camera": "iPhone 14 Pro",
+    "camera": "NIKON D3400",
     "caption": "Rocky Mountain National Park",
     "location": "Colorado USA",
     "tags": [
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "src": "images/IMG_8024.HEIC",
+    "src": "images/IMG_8024.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Eclipse",
     "location": "New Hampshire USA",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "src": "images/IMG_5581.HEIC",
+    "src": "images/IMG_5581.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Rose Garden",
     "location": "Massachusetts USA",
@@ -153,8 +153,8 @@
     ]
   },
   {
-    "src": "images/IMG_2349.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_2349.jpg",
+    "camera": "NIKON D3400",
     "caption": "Valley of Fire",
     "location": "Nevada USA",
     "tags": [
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "src": "images/IMG_0124.HEIC",
+    "src": "images/IMG_0124.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Cholla Cactus Garden, Joshua Tree National Park",
     "location": "California USA",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "src": "images/IMG_2444.HEIC",
+    "src": "images/IMG_2444.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Bryce Canyon National Park",
     "location": "Utah USA",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "src": "images/IMG_2324.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_2324.jpg",
+    "camera": "NIKON D3400",
     "caption": "Valley of Fire",
     "location": "Nevada USA",
     "tags": [
@@ -189,8 +189,8 @@
     ]
   },
   {
-    "src": "images/IMG_7328.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_7328.jpg",
+    "camera": "NIKON D3400",
     "caption": "Torrey Pines State Park",
     "location": "California USA",
     "tags": [
@@ -198,8 +198,8 @@
     ]
   },
   {
-    "src": "images/IMG_2534.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_2534.jpg",
+    "camera": "NIKON D3400",
     "caption": "Capitol Reef National Park",
     "location": "Utah USA",
     "tags": [
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "src": "images/IMG_2408.HEIC",
+    "src": "images/IMG_2408.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "",
     "location": "Utah USA",
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "src": "images/IMG_2432.HEIC",
+    "src": "images/IMG_2432.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Bryce Canyon National Park",
     "location": "Utah USA",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "src": "images/IMG_4925.HEIC",
+    "src": "images/IMG_4925.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "",
     "location": "Dominican Republic",
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "src": "images/IMG_0114(1).HEIC",
+    "src": "images/IMG_0114(1).jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "src": "images/IMG_2569.HEIC",
+    "src": "images/IMG_2569.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Arches National Park",
     "location": "Utah USA",
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "src": "images/IMG_0116.HEIC",
+    "src": "images/IMG_0116.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -261,7 +261,7 @@
     ]
   },
   {
-    "src": "images/IMG_0428.HEIC",
+    "src": "images/IMG_0428.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "src": "images/IMG_0111.HEIC",
+    "src": "images/IMG_0111.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -279,7 +279,7 @@
     ]
   },
   {
-    "src": "images/IMG_3829.HEIC",
+    "src": "images/IMG_3829.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "White Mountains National Forest",
     "location": "New Hampshire USA",
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "src": "images/IMG_6704.HEIC",
+    "src": "images/IMG_6700.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Rocky Mountain National Park",
     "location": "Colorado USA",
@@ -297,16 +297,7 @@
     ]
   },
   {
-    "src": "images/IMG_6700.HEIC",
-    "camera": "iPhone 14 Pro",
-    "caption": "Rocky Mountain National Park",
-    "location": "Colorado USA",
-    "tags": [
-      "nature"
-    ]
-  },
-  {
-    "src": "images/IMG_3838.HEIC",
+    "src": "images/IMG_3838.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "",
     "location": "Massachusetts USA",
@@ -315,8 +306,8 @@
     ]
   },
   {
-    "src": "images/IMG_0470.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_0470.jpg",
+    "camera": "NIKON D3400",
     "caption": "Sequoia National Park",
     "location": "California USA",
     "tags": [
@@ -324,7 +315,7 @@
     ]
   },
   {
-    "src": "images/IMG_0419.HEIC",
+    "src": "images/IMG_0419.jpg",
     "camera": "NIKON D3400",
     "caption": "Moro Rock",
     "location": "California USA",
@@ -333,7 +324,7 @@
     ]
   },
   {
-    "src": "images/IMG_0445.HEIC",
+    "src": "images/IMG_0445.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -342,8 +333,8 @@
     ]
   },
   {
-    "src": "images/IMG_6434.HEIC",
-    "camera": "iPoh",
+    "src": "images/IMG_6434.jpg",
+    "camera": "iPhone 14 Pro",
     "caption": "Acadia National Park",
     "location": "Maine USA",
     "tags": [
@@ -351,8 +342,8 @@
     ]
   },
   {
-    "src": "images/IMG_0483.HEIC",
-    "camera": "iPhone 14 Pro",
+    "src": "images/IMG_0483.jpg",
+    "camera": "NIKON D3400",
     "caption": "Kings Canyon National Park",
     "location": "California USA",
     "tags": [
@@ -360,7 +351,7 @@
     ]
   },
   {
-    "src": "images/IMG_1561.HEIC",
+    "src": "images/IMG_1561.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Acadia National Park",
     "location": "Maine USA",
@@ -369,14 +360,14 @@
     ]
   },
   {
-    "src": "images/IMG_0459.HEIC",
+    "src": "images/IMG_0459.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "",
     "location": "California USA",
     "tags": []
   },
   {
-    "src": "images/IMG_6564.HEIC",
+    "src": "images/IMG_6564.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "White Mountains National Forest",
     "location": "New Hampshire USA",
@@ -392,7 +383,7 @@
     ]
   },
   {
-    "src": "images/IMG_7465.HEIC",
+    "src": "images/IMG_7465.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "",
     "location": "Massachusetts USA",
@@ -401,7 +392,7 @@
     ]
   },
   {
-    "src": "images/IMG_0118.HEIC",
+    "src": "images/IMG_0118.jpg",
     "camera": "iPhone 14 Pro",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
@@ -501,7 +492,7 @@
     ]
   },
   {
-    "src": "images/IMG_3522.HEIC",
+    "src": "images/IMG_3522.jpg",
     "camera": "iPhone X",
     "caption": "",
     "location": "",
@@ -528,7 +519,7 @@
     ]
   },
   {
-    "src": "images/IMG_7616.HEIC",
+    "src": "images/IMG_7616.jpg",
     "camera": "iPhone XS",
     "caption": "Monadnock State Park",
     "location": "New Hampshire USA",
@@ -537,7 +528,7 @@
     ]
   },
   {
-    "src": "images/Snapseed.heic",
+    "src": "images/Snapseed.jpg",
     "camera": "iPhone 12 Pro",
     "caption": "",
     "location": "California USA",
@@ -619,15 +610,6 @@
   },
   {
     "src": "images/DSC_0382.JPG",
-    "camera": "NIKON D3400",
-    "caption": "Bryce Canyon National Park",
-    "location": "Utah USA",
-    "tags": [
-      "nature"
-    ]
-  },
-  {
-    "src": "images/DSC_0382(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Bryce Canyon National Park",
     "location": "Utah USA",
