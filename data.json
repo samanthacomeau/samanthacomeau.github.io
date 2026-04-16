@@ -1,7 +1,7 @@
 [
   {
     "src": "images/IMG_6434(1).jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Acadia National Park",
     "location": "Maine USA",
     "tags": [
@@ -28,7 +28,7 @@
   },
   {
     "src": "images/IMG_2167.JPG",
-    "camera": "iPhone 12 Pro",
+    "camera": "iPhone",
     "caption": "Little Island",
     "location": "New York USA",
     "tags": [
@@ -127,7 +127,7 @@
   },
   {
     "src": "images/IMG_8024.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Eclipse",
     "location": "New Hampshire USA",
     "tags": [
@@ -145,7 +145,7 @@
   },
   {
     "src": "images/IMG_5581.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Rose Garden",
     "location": "Massachusetts USA",
     "tags": [
@@ -163,7 +163,7 @@
   },
   {
     "src": "images/IMG_0124.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Cholla Cactus Garden, Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -172,7 +172,7 @@
   },
   {
     "src": "images/IMG_2444.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
     "location": "Utah USA",
     "tags": [
@@ -208,7 +208,7 @@
   },
   {
     "src": "images/IMG_2408.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "Utah USA",
     "tags": [
@@ -217,7 +217,7 @@
   },
   {
     "src": "images/IMG_2432.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
     "location": "Utah USA",
     "tags": [
@@ -226,7 +226,7 @@
   },
   {
     "src": "images/IMG_4925.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "Dominican Republic",
     "tags": [
@@ -235,7 +235,7 @@
   },
   {
     "src": "images/IMG_0114(1).jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -244,7 +244,7 @@
   },
   {
     "src": "images/IMG_2569.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Arches National Park",
     "location": "Utah USA",
     "tags": [
@@ -253,7 +253,7 @@
   },
   {
     "src": "images/IMG_0116.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -262,7 +262,7 @@
   },
   {
     "src": "images/IMG_0428.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -271,7 +271,7 @@
   },
   {
     "src": "images/IMG_0111.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -280,7 +280,7 @@
   },
   {
     "src": "images/IMG_3829.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "White Mountains National Forest",
     "location": "New Hampshire USA",
     "tags": [
@@ -289,7 +289,7 @@
   },
   {
     "src": "images/IMG_6700.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Rocky Mountain National Park",
     "location": "Colorado USA",
     "tags": [
@@ -298,7 +298,7 @@
   },
   {
     "src": "images/IMG_3838.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "Massachusetts USA",
     "tags": [
@@ -325,7 +325,7 @@
   },
   {
     "src": "images/IMG_0445.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -334,7 +334,7 @@
   },
   {
     "src": "images/IMG_6434.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Acadia National Park",
     "location": "Maine USA",
     "tags": [
@@ -352,7 +352,7 @@
   },
   {
     "src": "images/IMG_1561.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Acadia National Park",
     "location": "Maine USA",
     "tags": [
@@ -361,14 +361,14 @@
   },
   {
     "src": "images/IMG_0459.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "California USA",
     "tags": []
   },
   {
     "src": "images/IMG_6564.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "White Mountains National Forest",
     "location": "New Hampshire USA",
     "tags": []
@@ -384,7 +384,7 @@
   },
   {
     "src": "images/IMG_7465.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "Massachusetts USA",
     "tags": [
@@ -393,7 +393,7 @@
   },
   {
     "src": "images/IMG_0118.jpg",
-    "camera": "iPhone 14 Pro",
+    "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": "California USA",
     "tags": [
@@ -402,14 +402,14 @@
   },
   {
     "src": "images/IMG_6418.JPG",
-    "camera": "iPhone SE",
+    "camera": "iPhone",
     "caption": "",
     "location": "Bahamas",
     "tags": []
   },
   {
     "src": "images/IMG_7386.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "Royal National Park",
     "location": "Sydney AUS",
     "tags": [
@@ -418,7 +418,7 @@
   },
   {
     "src": "images/IMG_7387.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "Royal National Park",
     "location": "Sydney AUS",
     "tags": [
@@ -427,7 +427,7 @@
   },
   {
     "src": "images/IMG_7391.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "Royal National Park",
     "location": "Sydney AUS",
     "tags": [
@@ -436,21 +436,21 @@
   },
   {
     "src": "images/IMG_7457.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "",
     "location": "Sydney AUS",
     "tags": []
   },
   {
     "src": "images/IMG_7603.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "",
     "location": "Sydney AUS",
     "tags": []
   },
   {
     "src": "images/IMG_7983.JPG",
-    "camera": "iPhone 6s",
+    "camera": "iPhone",
     "caption": "",
     "location": "",
     "tags": []
@@ -493,7 +493,7 @@
   },
   {
     "src": "images/IMG_3522.jpg",
-    "camera": "iPhone X",
+    "camera": "iPhone",
     "caption": "",
     "location": "",
     "tags": [
@@ -520,7 +520,7 @@
   },
   {
     "src": "images/IMG_7616.jpg",
-    "camera": "iPhone XS",
+    "camera": "iPhone",
     "caption": "Monadnock State Park",
     "location": "New Hampshire USA",
     "tags": [
@@ -529,7 +529,7 @@
   },
   {
     "src": "images/Snapseed.jpg",
-    "camera": "iPhone 12 Pro",
+    "camera": "iPhone",
     "caption": "",
     "location": "California USA",
     "tags": []
