@@ -1,0 +1,471 @@
+[
+  {
+    "src": "images/movies.jpg",
+    "item": "go to the movies",
+    "season": "any",
+    "cost": "$",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "majestic 7 super tuesdays",
+      "amc"
+    ],
+    "resources": [
+      "https://arsenalyards.cwtheaters.com/"
+    ]
+  },
+  {
+    "src": "images/fancydinner.jpg",
+    "item": "get a fancy dinner",
+    "season": "any",
+    "cost": "$$",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "sarma"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/biking_mm.jpg",
+    "item": "go on a bike ride",
+    "season": "spring,summer,fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "cape cod rail trail",
+      "bruce freeman rail trail",
+      "minuteman"
+    ],
+    "resources": [
+      "https://masstrails.com/rail-trails-map.html"
+    ]
+  },
+  {
+    "src": "images/middlesexfells.jpg",
+    "item": "casual hike / walk",
+    "season": "spring,summer,fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "middlesex fells",
+      "blue hills",
+      "spy pond"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/coffee.jpg",
+    "item": "try a new coffee shop",
+    "season": "any",
+    "cost": "$",
+    "location": "any",
+    "time_required": "1 hour",
+    "ideas": [
+      "butternut bakery",
+      "little wolf coffee"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/book.jpg",
+    "item": "cozy up with a book",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "1 hour",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/snowshoeing.jpg",
+    "item": "snowshoe",
+    "season": "winter",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "middlesex fells",
+      "lonesome lake"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/games.jpg",
+    "item": "play games",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "cards (cubio, skat, 99, rummy, 313)",
+      "hearts",
+      "cribbage"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/skiing.jpg",
+    "item": "ski",
+    "season": "winter",
+    "cost": "$$$",
+    "location": "any",
+    "time_required": "1 day",
+    "ideas": [
+      "pats peak",
+      "bretton woods",
+      "sunday river",
+      "mont tremblant"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/green_juice.jpg",
+    "item": "try a new juicer recipe",
+    "season": "any",
+    "cost": "$",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/sourdough.jpg",
+    "item": "bake sourdough",
+    "season": "any",
+    "cost": "free",
+    "location": "home",
+    "time_required": "weekend",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/hammock.jpg",
+    "item": "go hammocking",
+    "season": "summer,fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "3 hours",
+    "ideas": [
+      "read a book",
+      "chill in nature"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/tennis.jpg",
+    "item": "play tennis",
+    "season": "spring,summer,fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "arsenal yards",
+      "grove street",
+      "boys and girls club"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/run.jpg",
+    "item": "go for a run",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "run a half marathon",
+      "run a marathon",
+      "run under 30 minute 5k",
+      "fun run"
+    ],
+    "resources": [
+      "https://www.parkrun.us/danehypark/"
+    ]
+  },
+  {
+    "src": "images/cards.jpg",
+    "item": "play cards",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "1 hour",
+    "ideas": [
+      "cribbage",
+      "skat",
+      "rummy",
+      "313",
+      "hearts"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/beach.jpg",
+    "item": "go to the beach",
+    "season": "summer,fall",
+    "cost": "$",
+    "location": "any",
+    "time_required": "half-day",
+    "ideas": [
+      "wingaersheek",
+      "half moon beach"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/applepicking.jpg",
+    "item": "go apple picking",
+    "season": "fall",
+    "cost": "$$",
+    "location": "any",
+    "time_required": "3 hours",
+    "ideas": [
+      "sunnycrest farm"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/swimming.jpg",
+    "item": "find a swimming hole",
+    "season": "summer",
+    "cost": "free",
+    "location": "any",
+    "time_required": "day",
+    "ideas": [
+      "warren falls vermont",
+      "walden pond ma"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/walk.jpg",
+    "item": "go for a walk",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/farmersmarket.jpg",
+    "item": "try a farmers market",
+    "season": "summer",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "union square farmers market"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/embroidery.jpg",
+    "item": "embroider something",
+    "season": "any",
+    "cost": "free",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [
+      "chicken",
+      "fix clothes"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/icecream.jpg",
+    "item": "get ice cream",
+    "season": "any",
+    "cost": "$",
+    "location": "any",
+    "time_required": "1 hour",
+    "ideas": [
+      "scoop and scootery",
+      "kimball farms"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/beachsunset.jpg",
+    "item": "see the sunset",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [
+      "beach"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/totes.jpg",
+    "item": "paint totes",
+    "season": "any",
+    "cost": "$$",
+    "location": "any",
+    "time_required": "half-day",
+    "ideas": [
+      "paint totes"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/leafpeeping.jpg",
+    "item": "peep leaves",
+    "season": "fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "half-day",
+    "ideas": [
+      "kancamangus"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/grill.jpg",
+    "item": "grill dinner",
+    "season": "spring,summer,fall",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/readabook.jpg",
+    "item": "read a book",
+    "season": "any",
+    "cost": "free",
+    "location": "any",
+    "time_required": "1 hour",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/smores.jpg",
+    "item": "roast smores",
+    "season": "spring,summer,fall",
+    "cost": "$",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/pizza.jpg",
+    "item": "host a pizza party",
+    "season": "spring,summer,fall",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/chalk.jpg",
+    "item": "make chalk art",
+    "season": "spring,summer,fall",
+    "cost": "free",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/art.jpg",
+    "item": "paint",
+    "season": "any",
+    "cost": "@",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/paddleboarding.jpg",
+    "item": "go paddleboarding",
+    "season": "summer",
+    "cost": "free",
+    "location": "any",
+    "time_required": "3 hours",
+    "ideas": [
+      "spy pond",
+      "ocean",
+      "quannapowitt",
+      "mystic lakes"
+    ],
+    "resources": []
+  },
+  {
+    "src": "images/baking.jpg",
+    "item": "bake something tasty",
+    "season": "any",
+    "cost": "$",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/pickleball.jpg",
+    "item": "play pickleball",
+    "season": "spring,summer,fall",
+    "cost": "free",
+    "location": "any",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/chopped.jpg",
+    "item": "host a chopped dinner competition",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/pumpkin.jpg",
+    "item": "carve pumpkins",
+    "season": "fall",
+    "cost": "$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/homemade_pasta.jpg",
+    "item": "make homemade pasta",
+    "season": "any",
+    "cost": "$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/vacation.jpg",
+    "item": "plan a vacation",
+    "season": "any",
+    "cost": "free",
+    "location": "home",
+    "time_required": "2 hous",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/picnic.png",
+    "item": "have a picnic",
+    "season": "summer,fall",
+    "cost": "free",
+    "location": "home",
+    "time_required": "2 hours",
+    "ideas": [],
+    "resources": []
+  }
+]
