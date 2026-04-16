@@ -1,32 +1,703 @@
 [
-    {
-        "src": "images/applepicking.jpg",
-        "camera": "Sony",
-        "caption": "Soft morning light"
-    },
-    {
-        "src": "images/pickleball.jpg",
-        "camera": "Canon",
-        "caption": "City textures"
-    },
-    {
-        "src": "https://picsum.photos/300/350",
-        "camera": "iPhone",
-        "caption": "Quick capture"
-    },
-    {
-        "src": "https://picsum.photos/300/600",
-        "camera": "Sony",
-        "caption": "Moody shadows"
-    },
-    {
-        "src": "https://picsum.photos/300/450",
-        "camera": "Canon",
-        "caption": "Architectural lines"
-    },
-    {
-        "src": "https://picsum.photos/300/550",
-        "camera": "iPhone",
-        "caption": "Everyday detail"
-    }
+  {
+    "src": "images/IMG_6434(1).HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Acadia National Park",
+    "location": "Maine USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_6735(1).JPG",
+    "camera": "iPhone 14 Pro",
+    "caption": "Rocky Mountain National Park",
+    "location": "Colorado USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8051.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Antelope Canyon National Park",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2167.JPG",
+    "camera": "iPhone 12 Pro",
+    "caption": "Little Island",
+    "location": "New York USA",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMG_7796.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Uluru",
+    "location": "Outback AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8055.JPG",
+    "camera": "NIKON D3400",
+    "caption": "",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8036.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Coconino National Forest",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7799.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8040.JPG",
+    "camera": "NIKON D3400",
+    "caption": "",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7798.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8042.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Walnut Canyon",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8041.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Petrified Forest National Park",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7800.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Daintree National Rainforest",
+    "location": "Cairns AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7797.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_8024.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Eclipse",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7801.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Daintree National Rainforest",
+    "location": "Cairns AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_5581.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Rose Garden",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2349.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Valley of Fire",
+    "location": "Nevada USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0124.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Cholla Cactus Garden, Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2444.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Bryce Canyon National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2324.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Valley of Fire",
+    "location": "Nevada USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7328.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Torrey Pines State Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2534.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Capitol Reef National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2408.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2432.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Bryce Canyon National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_4925.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "",
+    "location": "Dominican Republic",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMG_0114(1).HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_2569.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Arches National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0116.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0428.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0111.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_3829.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_6704.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Rocky Mountain National Park",
+    "location": "Colorado USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_6700.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Rocky Mountain National Park",
+    "location": "Colorado USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_3838.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0470.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Sequoia National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0419.HEIC",
+    "camera": "NIKON D3400",
+    "caption": "Moro Rock",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0445.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_6434.HEIC",
+    "camera": "iPoh",
+    "caption": "Acadia National Park",
+    "location": "Maine USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0483.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Kings Canyon National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_1561.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Acadia National Park",
+    "location": "Maine USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0459.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "",
+    "location": "California USA",
+    "tags": []
+  },
+  {
+    "src": "images/IMG_6564.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": []
+  },
+  {
+    "src": "images/IMG_2416.PNG",
+    "camera": "NIKON D3400",
+    "caption": "Zion National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7465.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0118.HEIC",
+    "camera": "iPhone 14 Pro",
+    "caption": "Joshua Tree National Park",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_6418.JPG",
+    "camera": "iPhone SE",
+    "caption": "",
+    "location": "Bahamas",
+    "tags": []
+  },
+  {
+    "src": "images/IMG_7386.JPG",
+    "camera": "iPhone 6s",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7387.JPG",
+    "camera": "iPhone 6s",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7391.JPG",
+    "camera": "iPhone 6s",
+    "caption": "Royal National Park",
+    "location": "Sydney AUS",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7457.JPG",
+    "camera": "iPhone 6s",
+    "caption": "",
+    "location": "Sydney AUS",
+    "tags": []
+  },
+  {
+    "src": "images/IMG_7603.JPG",
+    "camera": "iPhone 6s",
+    "caption": "",
+    "location": "Sydney AUS",
+    "tags": []
+  },
+  {
+    "src": "images/IMG_7983.JPG",
+    "camera": "iPhone 6s",
+    "caption": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "src": "images/DSC_0041_Original.JPG",
+    "camera": "NIKON D3400",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/DSC_0045_Original.JPG",
+    "camera": "NIKON D3400",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_1490.JPG",
+    "camera": "NIKON D3400",
+    "caption": "",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_1491.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Coconino National Forest",
+    "location": "Arizona USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_3522.HEIC",
+    "camera": "iPhone X",
+    "caption": "",
+    "location": "",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/DSC_0159_Original.JPG",
+    "camera": "NIKON D3400",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/DSC_0165_Original.JPG",
+    "camera": "NIKON D3400",
+    "caption": "White Mountains National Forest",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_7616.HEIC",
+    "camera": "iPhone XS",
+    "caption": "Monadnock State Park",
+    "location": "New Hampshire USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/Snapseed.heic",
+    "camera": "iPhone 12 Pro",
+    "caption": "",
+    "location": "California USA",
+    "tags": []
+  },
+  {
+    "src": "images/DSC_0196_Original(1).JPG",
+    "camera": "NIKON D3400",
+    "caption": "Muir Woods",
+    "location": "California USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/DSC_0198_Original(1).JPG",
+    "camera": "NIKON D3400",
+    "caption": "Golden Gate Bridge",
+    "location": "California USA",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMG_0316.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "",
+    "location": "Copenhagen DNK",
+    "tags": [
+      "architecture",
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0321.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "",
+    "location": "Copenhagen DNK",
+    "tags": [
+      "nature",
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMG_0356.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "",
+    "location": "Copenhagen DNK",
+    "tags": [
+      "wildlife"
+    ]
+  },
+  {
+    "src": "images/IMG_0382.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "",
+    "location": "Copenhagen DNK",
+    "tags": [
+      "plants"
+    ]
+  },
+  {
+    "src": "images/IMG_0405.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "",
+    "location": "Copenhagen DNK",
+    "tags": [
+      "plants"
+    ]
+  },
+  {
+    "src": "images/DSC_0354.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Zion National Park",
+    "location": "Utah USA",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/DSC_0382.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Bryce Canyon National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/DSC_0382(1).JPG",
+    "camera": "NIKON D3400",
+    "caption": "Bryce Canyon National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/DSC_0408.JPG",
+    "camera": "NIKON D3400",
+    "caption": "Bryce Canyon National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0801.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "Canyonlands National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_0930(1).JPG",
+    "camera": "Canon EOS R50",
+    "caption": "Arches National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMG_1052.JPG",
+    "camera": "Canon EOS R50",
+    "caption": "Black Canyon of the Gunnison National Park",
+    "location": "Utah USA",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "src": "images/IMGX1321.JPG",
+    "camera": "FujiFilm X100V",
+    "caption": "Isabella Stewart Gardner Museum",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature",
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMGX1340.JPG",
+    "camera": "FujiFilm X100V",
+    "caption": "Isabella Stewart Gardner Museum",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature",
+      "architecture"
+    ]
+  },
+  {
+    "src": "images/IMGX1358.JPG",
+    "camera": "FujiFilm X100V",
+    "caption": "Cherry Blossoms",
+    "location": "Massachusetts USA",
+    "tags": [
+      "nature"
+    ]
+  }
 ]
