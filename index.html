@@ -7,6 +7,48 @@
     <title>Photos</title>
 
     <style>
+        /* BACKDROP */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        /* HIDE STATE */
+        .hidden {
+            display: none;
+        }
+
+        /* IMAGE CONTAINER */
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            text-align: center;
+        }
+
+        /* LARGE IMAGE */
+        .modal-content img {
+            max-width: 100%;
+            max-height: 80vh;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        /* META TEXT */
+        #modalMeta {
+            margin-top: 10px;
+            color: #e5e5e5;
+            font-size: 14px;
+        }
+
         body {
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -140,6 +182,13 @@
 
     <div class="grid" id="grid"></div>
 
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <img id="modalImg" />
+            <div id="modalMeta"></div>
+        </div>
+    </div>
+
     <script>
         const grid = document.getElementById("grid");
         let filter = document.getElementById("cameraFilter");
@@ -207,7 +256,6 @@
             }
         }
         loadData();
-
         function createCard(item) {
             const card = document.createElement("div");
             card.className = "card";
@@ -220,11 +268,17 @@
 
             const text = document.createElement("div");
             text.className = "overlay-text";
-            text.innerHTML = `${item.caption}<div class="camera">${item.camera}</div>`;
+            text.innerHTML = `
+    ${item.caption || ""}
+    <div class="camera">${item.camera || ""}</div>
+  `;
 
             overlay.appendChild(text);
             card.appendChild(img);
             card.appendChild(overlay);
+
+            // 🔥 CLICK TO OPEN MODAL
+            card.addEventListener("click", () => openModal(item));
 
             return card;
         }
@@ -277,8 +331,35 @@
             currentFilters.tag = e.target.value;
             render();
         });
-    </script>
 
+        const modal = document.getElementById("modal");
+        const modalImg = document.getElementById("modalImg");
+        const modalMeta = document.getElementById("modalMeta");
+
+        function openModal(item) {
+            modalImg.src = item.src;
+
+            modalMeta.innerHTML = `
+    <div><strong>${item.caption || "Untitled"}</strong></div>
+    <div>${item.camera || ""} • ${item.location || ""}</div>
+    <div>${(item.tags || []).join(" • ")}</div>
+  `;
+
+            modal.classList.remove("hidden");
+        }
+
+        function closeModal() {
+            modal.classList.add("hidden");
+            modalImg.src = "";
+        }
+
+        /* click outside image closes modal */
+        modal.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
 </body>
 
 </html>
