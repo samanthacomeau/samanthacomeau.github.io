@@ -3,7 +3,10 @@
     "src": "images/IMG_6434(1).jpg",
     "camera": "iPhone",
     "caption": "Acadia National Park",
-    "location": "Maine USA",
+    "location": {
+      "state": "Maine",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -12,7 +15,10 @@
     "src": "images/IMG_6735(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Rocky Mountain National Park",
-    "location": "Colorado USA",
+    "location": {
+      "state": "Colorado",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -21,7 +27,10 @@
     "src": "images/IMG_8051.JPG",
     "camera": "NIKON D3400",
     "caption": "Antelope Canyon National Park",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -30,7 +39,10 @@
     "src": "images/IMG_2167.JPG",
     "camera": "iPhone",
     "caption": "Little Island",
-    "location": "New York USA",
+    "location": {
+      "state": "New York",
+      "country": "United States"
+    },
     "tags": [
       "architecture"
     ]
@@ -39,7 +51,10 @@
     "src": "images/IMG_7796.JPG",
     "camera": "NIKON D3400",
     "caption": "Uluru",
-    "location": "Outback AUS",
+    "location": {
+      "state": "Outback",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -48,7 +63,10 @@
     "src": "images/IMG_8055.JPG",
     "camera": "NIKON D3400",
     "caption": "",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -57,7 +75,10 @@
     "src": "images/IMG_8036.JPG",
     "camera": "NIKON D3400",
     "caption": "Coconino National Forest",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -66,7 +87,10 @@
     "src": "images/IMG_7799.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -75,7 +99,10 @@
     "src": "images/IMG_8040.JPG",
     "camera": "NIKON D3400",
     "caption": "",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -84,7 +111,10 @@
     "src": "images/IMG_7798.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -93,7 +123,10 @@
     "src": "images/IMG_8042.JPG",
     "camera": "NIKON D3400",
     "caption": "Walnut Canyon",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -102,7 +135,10 @@
     "src": "images/IMG_8041.JPG",
     "camera": "NIKON D3400",
     "caption": "Petrified Forest National Park",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -111,7 +147,10 @@
     "src": "images/IMG_7800.JPG",
     "camera": "NIKON D3400",
     "caption": "Daintree National Rainforest",
-    "location": "Cairns AUS",
+    "location": {
+      "state": "Cairns",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -120,7 +159,10 @@
     "src": "images/IMG_7797.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -129,7 +171,10 @@
     "src": "images/IMG_8024.jpg",
     "camera": "iPhone",
     "caption": "Eclipse",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -138,7 +183,10 @@
     "src": "images/IMG_7801.JPG",
     "camera": "NIKON D3400",
     "caption": "Daintree National Rainforest",
-    "location": "Cairns AUS",
+    "location": {
+      "state": "Cairns",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -147,7 +195,10 @@
     "src": "images/IMG_5581.jpg",
     "camera": "iPhone",
     "caption": "Rose Garden",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -156,7 +207,10 @@
     "src": "images/IMG_2349.jpg",
     "camera": "NIKON D3400",
     "caption": "Valley of Fire",
-    "location": "Nevada USA",
+    "location": {
+      "state": "Nevada",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -165,7 +219,10 @@
     "src": "images/IMG_0124.jpg",
     "camera": "iPhone",
     "caption": "Cholla Cactus Garden, Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -174,7 +231,10 @@
     "src": "images/IMG_2444.jpg",
     "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -183,7 +243,10 @@
     "src": "images/IMG_2324.jpg",
     "camera": "NIKON D3400",
     "caption": "Valley of Fire",
-    "location": "Nevada USA",
+    "location": {
+      "state": "Nevada",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -192,7 +255,10 @@
     "src": "images/IMG_7328.jpg",
     "camera": "NIKON D3400",
     "caption": "Torrey Pines State Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -201,7 +267,10 @@
     "src": "images/IMG_2534.jpg",
     "camera": "NIKON D3400",
     "caption": "Capitol Reef National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -210,7 +279,10 @@
     "src": "images/IMG_2408.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -219,7 +291,10 @@
     "src": "images/IMG_2432.jpg",
     "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -228,7 +303,10 @@
     "src": "images/IMG_4925.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "Dominican Republic",
+    "location": {
+      "state": "Puerta Plata",
+      "country": "Dominican Republic"
+    },
     "tags": [
       "architecture"
     ]
@@ -237,7 +315,10 @@
     "src": "images/IMG_0114(1).jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -246,7 +327,10 @@
     "src": "images/IMG_2569.jpg",
     "camera": "iPhone",
     "caption": "Arches National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -255,7 +339,10 @@
     "src": "images/IMG_0116.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -264,7 +351,10 @@
     "src": "images/IMG_0428.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -273,7 +363,10 @@
     "src": "images/IMG_0111.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -282,7 +375,10 @@
     "src": "images/IMG_3829.jpg",
     "camera": "iPhone",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -291,7 +387,10 @@
     "src": "images/IMG_6700.jpg",
     "camera": "iPhone",
     "caption": "Rocky Mountain National Park",
-    "location": "Colorado USA",
+    "location": {
+      "state": "Colorado",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -300,7 +399,10 @@
     "src": "images/IMG_3838.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -309,7 +411,10 @@
     "src": "images/IMG_0470.jpg",
     "camera": "NIKON D3400",
     "caption": "Sequoia National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -318,7 +423,10 @@
     "src": "images/IMG_0419.jpg",
     "camera": "NIKON D3400",
     "caption": "Moro Rock",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -327,7 +435,10 @@
     "src": "images/IMG_0445.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -336,7 +447,10 @@
     "src": "images/IMG_0483.jpg",
     "camera": "NIKON D3400",
     "caption": "Kings Canyon National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -345,7 +459,10 @@
     "src": "images/IMG_1561.jpg",
     "camera": "iPhone",
     "caption": "Acadia National Park",
-    "location": "Maine USA",
+    "location": {
+      "state": "Maine",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -354,21 +471,30 @@
     "src": "images/IMG_0459.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": []
   },
   {
     "src": "images/IMG_6564.jpg",
     "camera": "iPhone",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": []
   },
   {
     "src": "images/IMG_2416.PNG",
     "camera": "NIKON D3400",
     "caption": "Zion National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -377,7 +503,10 @@
     "src": "images/IMG_7465.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -386,7 +515,10 @@
     "src": "images/IMG_0118.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -395,14 +527,20 @@
     "src": "images/IMG_6418.JPG",
     "camera": "iPhone",
     "caption": "",
-    "location": "Nassau BHS",
+    "location": {
+      "state": "Nassau",
+      "country": "Bahamas"
+    },
     "tags": []
   },
   {
     "src": "images/IMG_7386.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -411,7 +549,10 @@
     "src": "images/IMG_7387.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -420,7 +561,10 @@
     "src": "images/IMG_7391.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": [
       "nature"
     ]
@@ -429,28 +573,40 @@
     "src": "images/IMG_7457.JPG",
     "camera": "iPhone",
     "caption": "",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": []
   },
   {
     "src": "images/IMG_7603.JPG",
     "camera": "iPhone",
     "caption": "",
-    "location": "Sydney AUS",
+    "location": {
+      "state": "Sydney",
+      "country": "Australia"
+    },
     "tags": []
   },
   {
     "src": "images/IMG_7983.JPG",
     "camera": "iPhone",
     "caption": "",
-    "location": "",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": []
   },
   {
     "src": "images/DSC_0041_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -459,7 +615,10 @@
     "src": "images/DSC_0045_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -468,7 +627,10 @@
     "src": "images/IMG_1490.JPG",
     "camera": "NIKON D3400",
     "caption": "",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -477,7 +639,10 @@
     "src": "images/IMG_1491.JPG",
     "camera": "NIKON D3400",
     "caption": "Coconino National Forest",
-    "location": "Arizona USA",
+    "location": {
+      "state": "Arizona",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -486,7 +651,10 @@
     "src": "images/IMG_3522.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "architecture"
     ]
@@ -495,7 +663,10 @@
     "src": "images/DSC_0159_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -504,7 +675,10 @@
     "src": "images/DSC_0165_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -513,7 +687,10 @@
     "src": "images/IMG_7616.jpg",
     "camera": "iPhone",
     "caption": "Monadnock State Park",
-    "location": "New Hampshire USA",
+    "location": {
+      "state": "New Hampshire",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -522,14 +699,20 @@
     "src": "images/Snapseed.jpg",
     "camera": "iPhone",
     "caption": "",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": []
   },
   {
     "src": "images/DSC_0196_Original(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Muir Woods",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -538,7 +721,10 @@
     "src": "images/DSC_0198_Original(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Golden Gate Bridge",
-    "location": "California USA",
+    "location": {
+      "state": "California",
+      "country": "United States"
+    },
     "tags": [
       "architecture"
     ]
@@ -547,7 +733,10 @@
     "src": "images/IMG_0316.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
-    "location": "Copenhagen DNK",
+    "location": {
+      "state": "Copenhagen",
+      "country": "Denmark"
+    },
     "tags": [
       "architecture",
       "nature"
@@ -557,7 +746,10 @@
     "src": "images/IMG_0321.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
-    "location": "Copenhagen DNK",
+    "location": {
+      "state": "Copenhagen",
+      "country": "Denmark"
+    },
     "tags": [
       "nature",
       "architecture"
@@ -567,7 +759,10 @@
     "src": "images/IMG_0356.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
-    "location": "Copenhagen DNK",
+    "location": {
+      "state": "Copenhagen",
+      "country": "Denmark"
+    },
     "tags": [
       "wildlife"
     ]
@@ -576,7 +771,10 @@
     "src": "images/IMG_0382.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
-    "location": "Copenhagen DNK",
+    "location": {
+      "state": "Copenhagen",
+      "country": "Denmark"
+    },
     "tags": [
       "plants"
     ]
@@ -585,7 +783,10 @@
     "src": "images/IMG_0405.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
-    "location": "Copenhagen DNK",
+    "location": {
+      "state": "Copenhagen",
+      "country": "Denmark"
+    },
     "tags": [
       "plants"
     ]
@@ -594,7 +795,10 @@
     "src": "images/DSC_0354.JPG",
     "camera": "NIKON D3400",
     "caption": "Zion National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "architecture"
     ]
@@ -603,7 +807,10 @@
     "src": "images/DSC_0382.JPG",
     "camera": "NIKON D3400",
     "caption": "Bryce Canyon National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -612,7 +819,10 @@
     "src": "images/DSC_0408.JPG",
     "camera": "NIKON D3400",
     "caption": "Bryce Canyon National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -621,7 +831,10 @@
     "src": "images/IMG_0801.JPG",
     "camera": "Canon EOS R50",
     "caption": "Canyonlands National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -630,7 +843,10 @@
     "src": "images/IMG_0930(1).JPG",
     "camera": "Canon EOS R50",
     "caption": "Arches National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -639,7 +855,10 @@
     "src": "images/IMG_1052.JPG",
     "camera": "Canon EOS R50",
     "caption": "Black Canyon of the Gunnison National Park",
-    "location": "Utah USA",
+    "location": {
+      "state": "Utah",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]
@@ -648,7 +867,10 @@
     "src": "images/IMGX1321.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Isabella Stewart Gardner Museum",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature",
       "architecture"
@@ -658,7 +880,10 @@
     "src": "images/IMGX1340.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Isabella Stewart Gardner Museum",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature",
       "architecture"
@@ -668,7 +893,10 @@
     "src": "images/IMGX1358.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Cherry Blossoms",
-    "location": "Massachusetts USA",
+    "location": {
+      "state": "Massachusetts",
+      "country": "United States"
+    },
     "tags": [
       "nature"
     ]

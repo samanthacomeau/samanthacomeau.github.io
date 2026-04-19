@@ -241,10 +241,52 @@
 
             return [...values].filter(Boolean).sort();
         }
-
-        function populateFilters() {
-            const cameraSel = document.getElementById("cameraFilter");
+        function populateLocationFilter() {
             const locationSel = document.getElementById("locationFilter");
+
+            // Reset
+            locationSel.innerHTML = '<option value="all">All Locations</option>';
+
+            const grouped = {};
+
+            // Group states by country
+            data.forEach(item => {
+                const loc = item.location;
+                if (!loc) return;
+
+                const country = loc.country || "Other";
+                const state = loc.state || "Unknown";
+
+                if (!grouped[country]) {
+                    grouped[country] = new Set();
+                }
+
+                grouped[country].add(state);
+            });
+
+            console.log(grouped)
+
+            // Build dropdown
+            Object.keys(grouped)
+                .sort()
+                .forEach(country => {
+                    const optgroup = document.createElement("optgroup");
+                    optgroup.label = country;
+
+                    [...grouped[country]].sort().forEach(state => {
+                        const option = document.createElement("option");
+                        option.value = `${country}|ALL`;
+                        option.textContent = `${state}`;
+
+                        optgroup.appendChild(option);
+                    });
+
+                    locationSel.appendChild(optgroup);
+                });
+        }
+
+        function populateCameraFilter() {
+            const cameraSel = document.getElementById("cameraFilter");
 
             // Cameras
             uniqueValues("camera").forEach(val => {
@@ -253,14 +295,6 @@
                 opt.textContent = val;
                 cameraSel.appendChild(opt);
             });
-
-            // Locations
-            uniqueValues("location").forEach(val => {
-                const opt = document.createElement("option");
-                opt.value = val;
-                opt.textContent = val;
-                locationSel.appendChild(opt);
-            });
         }
 
         async function loadData() {
@@ -268,7 +302,8 @@
                 const response = await fetch("data.json");
                 data = await response.json();
                 render();
-                populateFilters();
+                populateCameraFilter();
+                populateLocationFilter();
             } catch (err) {
                 console.error("Failed to load JSON:", err);
             }
@@ -286,7 +321,7 @@
 
             const text = document.createElement("div");
             text.className = "overlay-text";
-            text.innerHTML = `${item.caption || ""}<div class="camera">${item.camera || ""}◦${item.location || ""}</div>`;
+            text.innerHTML = `${item.caption || ""}<div class="camera">${item.camera || ""}◦${item.location.state},${item.location.country}</div>`;
 
             overlay.appendChild(text);
             card.appendChild(img);
@@ -303,6 +338,21 @@
             return (photo.tags || []).includes(tag);
         }
 
+        function matchesLocation(item, selected) {
+            if (selected === "all") return true;
+
+            const [country, state] = selected.split("|");
+            if (state === "ALL") {
+                return item.location && item.location.country === country;
+            }
+
+            return (
+                item.location &&
+                item.location.country === country &&
+                item.location.state === state
+            );
+        }
+
         function render() {
             const grid = document.getElementById("grid");
             grid.innerHTML = "";
@@ -312,9 +362,7 @@
                     currentFilters.camera === "all" ||
                     item.camera === currentFilters.camera;
 
-                const matchLocation =
-                    currentFilters.location === "all" ||
-                    item.location === currentFilters.location;
+                const matchLocation = matchesLocation(item, currentFilters.location)
 
                 const matchTag = matchesTags(item, currentFilters.tag);
 
@@ -342,11 +390,6 @@
             render();
         });
 
-        document.getElementById("tagFilter").addEventListener("change", (e) => {
-            currentFilters.tag = e.target.value;
-            render();
-        });
-
         const modal = document.getElementById("modal");
         const modalImg = document.getElementById("modalImg");
         const modalMeta = document.getElementById("modalMeta");
@@ -355,10 +398,11 @@
             modalImg.src = item.src;
 
             modalMeta.innerHTML = `
-    <div><strong>${item.caption || "Untitled"}</strong></div>
-    <div>${item.camera || ""} • ${item.location || ""}</div>
-    <div>${(item.tags || []).join(" • ")}</div>
-  `;
+            <div>
+                <strong>${item.caption || "Untitled"}</strong>
+            </div>
+            <div>${item.camera || ""} • ${item.location.state},${item.location.country}</div>
+            `;
 
             modal.classList.remove("hidden");
         }

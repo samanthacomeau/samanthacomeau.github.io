@@ -14,12 +14,18 @@ OUTPUT_JSON = "data.json"
 SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png", ".heic")
 
 photos_data = []
+seen_photos = []
+if os.path.exists(OUTPUT_JSON):
+    with open(OUTPUT_JSON, "r+") as f:
+        photos_data = json.load(f.readlines())
+        seen_photos = [photo["src"] for photo in photos_data]
 
 os.makedirs(REVIEW_DIR, exist_ok=True)
 
 # 🔥 Autocomplete memory
 camera_history = set()
-location_history = set()
+state_history = set()
+country_history = set()
 title_history = set()
 tag_history = set()
 
@@ -84,9 +90,15 @@ total_files = len(files)
 
 # 🔁 Process
 for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
+    # Check if file is already accounted for
+    if filepath in seen_photos:
+        print(f"Already Seen: {filename}")
+        continue
+
     print("\n" + "=" * 50)
     print(progress_bar(idx, total_files))
     print(f"Processing: {filename}")
+    seen_photos.add(filepath)
 
     preview_image(filepath)
 
@@ -104,7 +116,8 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
     detected_camera = get_camera_model(exif)
 
     camera_completer = WordCompleter(list(camera_history), ignore_case=True)
-    location_completer = WordCompleter(list(location_history), ignore_case=True)
+    state_completer = WordCompleter(list(state_history), ignore_case=True)
+    country_completer = WordCompleter(list(country_history), ignore_case=True)
     title_completer = WordCompleter(list(title_history), ignore_case=True)
     tag_completer = WordCompleter(list(tag_history), ignore_case=True)
 
@@ -121,8 +134,11 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
     camera_history.add(camera)
 
     # Location
-    location = prompt("Location: ", completer=location_completer)
-    location_history.add(location)
+    state = prompt("State: ", completer=state_completer)
+    state_history.add(state)
+
+    country = prompt("Country: ", completer=country_completer)
+    country_history.add(country)
 
     # Title
     title = prompt("Title (optional): ", completer=title_completer)
@@ -142,7 +158,8 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
         "src": filepath.replace("\\", "/"),
         "camera": camera,
         "caption": title,
-        "location": location,
+        "state": state,
+        "country": country,
         "tags": tags
     }
 
