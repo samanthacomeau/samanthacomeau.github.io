@@ -11,16 +11,10 @@ PHOTO_DIR = "images"
 REVIEW_DIR = "review"
 OUTPUT_JSON = "data.json"
 
-SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png", ".heic")
+SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png")
 
 photos_data = []
 seen_photos = []
-if os.path.exists(OUTPUT_JSON):
-    with open(OUTPUT_JSON, "r+") as f:
-        photos_data = json.load(f.readlines())
-        seen_photos = [photo["src"] for photo in photos_data]
-
-os.makedirs(REVIEW_DIR, exist_ok=True)
 
 # 🔥 Autocomplete memory
 camera_history = set()
@@ -28,6 +22,21 @@ state_history = set()
 country_history = set()
 title_history = set()
 tag_history = set()
+
+if os.path.exists(OUTPUT_JSON):
+    with open(OUTPUT_JSON, "r+") as f:
+        photos_data = json.load(f)
+
+        for photo in photos_data:
+            seen_photos.append(photo["src"])
+            camera_history.add(photo["camera"])
+            state_history.add(photo["location"]["state"])
+            country_history.add(photo["location"]["country"])
+            title_history.add(photo["caption"])
+            for tag in photo["tags"]:
+                tag_history.add(tag)
+
+os.makedirs(REVIEW_DIR, exist_ok=True)
 
 
 def get_exif_data(filepath):
@@ -76,6 +85,7 @@ files = []
 
 for filename in os.listdir(PHOTO_DIR):
     if not filename.lower().endswith(SUPPORTED_EXTENSIONS):
+        print(f"Failed to process {filename} due to extension")
         continue
 
     filepath = os.path.join(PHOTO_DIR, filename)
@@ -98,7 +108,7 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
     print("\n" + "=" * 50)
     print(progress_bar(idx, total_files))
     print(f"Processing: {filename}")
-    seen_photos.add(filepath)
+    seen_photos.append(filepath)
 
     preview_image(filepath)
 
@@ -123,6 +133,8 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
 
     # Camera
     if detected_camera:
+        if "iPhone" in detected_camera:
+            detected_camera = "iPhone"
         confirm = input(f"Detected camera: '{detected_camera}'. Is this correct? (Y/n): ").strip().lower()
         if confirm == "n":
             camera = prompt("Camera: ", completer=camera_completer)
@@ -158,8 +170,10 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
         "src": filepath.replace("\\", "/"),
         "camera": camera,
         "caption": title,
-        "state": state,
-        "country": country,
+        "location": {
+            "state": state,
+            "country": country,
+        },
         "tags": tags
     }
 
