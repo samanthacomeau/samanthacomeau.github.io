@@ -272,11 +272,13 @@
                 .forEach(country => {
                     const optgroup = document.createElement("optgroup");
                     optgroup.label = country;
+                    optgroup.value = `${country}`; // unique key
+                    optgroup.textContent = country;
 
                     [...grouped[country]].sort().forEach(state => {
                         const option = document.createElement("option");
-                        option.value = `${country}|ALL`;
-                        option.textContent = `${state}`;
+                        option.value = `${country}|${state}`; // unique key
+                        option.textContent = state;
 
                         optgroup.appendChild(option);
                     });
@@ -315,6 +317,8 @@
 
             const img = document.createElement("img");
             img.src = item.src;
+            img.decoding = "async";
+            img.loading = "lazy";
 
             const overlay = document.createElement("div");
             overlay.className = "overlay";
