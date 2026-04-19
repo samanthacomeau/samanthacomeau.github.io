@@ -61,12 +61,43 @@
             top: 0;
             background: rgba(20, 20, 22, 0.9);
             backdrop-filter: blur(10px);
-            padding: 12px 20px;
+            padding: 10px;
             display: flex;
+            flex-wrap: wrap;
+            /* 🔥 allows wrapping */
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             z-index: 10;
+        }
+
+        /* Make inputs flexible */
+        header input,
+        header select {
+            min-width: 0;
+            /* 🔥 prevents overflow */
+            flex: 1;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                gap: 6px;
+            }
+
+            header h2 {
+                width: 100%;
+                font-size: 18px;
+            }
+
+            header input {
+                flex: 1 1 100%;
+                /* search gets full row */
+            }
+
+            header select {
+                flex: 1 1 calc(50% - 6px);
+                /* 2 per row */
+            }
         }
 
         h2 {
@@ -174,10 +205,6 @@
         <select id="locationFilter">
             <option value="all">All Locations</option>
         </select>
-
-        <select id="tagFilter">
-            <option value="all">All Tags</option>
-        </select>
     </header>
 
     <div class="grid" id="grid"></div>
@@ -218,7 +245,6 @@
         function populateFilters() {
             const cameraSel = document.getElementById("cameraFilter");
             const locationSel = document.getElementById("locationFilter");
-            const tagSel = document.getElementById("tagFilter");
 
             // Cameras
             uniqueValues("camera").forEach(val => {
@@ -234,14 +260,6 @@
                 opt.value = val;
                 opt.textContent = val;
                 locationSel.appendChild(opt);
-            });
-
-            // Tags
-            uniqueValues("tags").forEach(val => {
-                const opt = document.createElement("option");
-                opt.value = val;
-                opt.textContent = val;
-                tagSel.appendChild(opt);
             });
         }
 
@@ -268,10 +286,7 @@
 
             const text = document.createElement("div");
             text.className = "overlay-text";
-            text.innerHTML = `
-    ${item.caption || ""}
-    <div class="camera">${item.camera || ""}</div>
-  `;
+            text.innerHTML = `${item.caption || ""}<div class="camera">${item.camera || ""}◦${item.location || ""}</div>`;
 
             overlay.appendChild(text);
             card.appendChild(img);
