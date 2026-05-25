@@ -467,5 +467,75 @@
     "time_required": "2 hours",
     "ideas": [],
     "resources": []
+  },
+  {
+    "src": "images/pork.jpg",
+    "item": "try a pork chop recipe",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/handshake.jpg",
+    "item": "come up with a secret handshake",
+    "season": "any",
+    "cost": "",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/charcuterie.jpg",
+    "item": "make a nice charcuterie board",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/yogurt.jpg",
+    "item": "make some homemade yogurt",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/comedy.jpeg",
+    "item": "go to a comedy show",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/dancing.jpg",
+    "item": "take a dance class",
+    "season": "any",
+    "cost": "$$",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/library.jpg",
+    "item": "go to the library and read",
+    "season": "any",
+    "cost": "",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [],
+    "resources": []
   }
 ]

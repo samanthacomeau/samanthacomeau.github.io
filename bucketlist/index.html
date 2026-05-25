@@ -294,7 +294,12 @@
             modalImg.src = item.src;
 
             modalMeta.innerHTML = `
-    <div><strong>${item.item || "Untitled"}</strong></div>
+    <div>
+        <strong>${item.item || "Untitled"}</strong>
+    </div> 
+    <div>
+        ${item.ideas.join(' | ') || ""}
+    </div>
   `;
 
             modal.classList.remove("hidden");
