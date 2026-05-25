@@ -1,6 +1,6 @@
 [
   {
-    "src": "images/IMG_6434(1).jpg",
+    "src": "IMG_6434(1).jpg",
     "camera": "iPhone",
     "caption": "Acadia National Park",
     "location": {
@@ -9,10 +9,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_6434(1).jpg"
   },
   {
-    "src": "images/IMG_6735(1).JPG",
+    "src": "IMG_6735(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Rocky Mountain National Park",
     "location": {
@@ -21,10 +22,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_6735(1).JPG"
   },
   {
-    "src": "images/IMG_8051.JPG",
+    "src": "IMG_8051.JPG",
     "camera": "NIKON D3400",
     "caption": "Antelope Canyon National Park",
     "location": {
@@ -33,10 +35,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8051.JPG"
   },
   {
-    "src": "images/IMG_2167.JPG",
+    "src": "IMG_2167.JPG",
     "camera": "iPhone",
     "caption": "Little Island",
     "location": {
@@ -45,10 +48,11 @@
     },
     "tags": [
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2167.JPG"
   },
   {
-    "src": "images/IMG_7796.JPG",
+    "src": "IMG_7796.JPG",
     "camera": "NIKON D3400",
     "caption": "Uluru",
     "location": {
@@ -57,10 +61,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7796.JPG"
   },
   {
-    "src": "images/IMG_8055.JPG",
+    "src": "IMG_8055.JPG",
     "camera": "NIKON D3400",
     "caption": "",
     "location": {
@@ -69,10 +74,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8055.JPG"
   },
   {
-    "src": "images/IMG_8036.JPG",
+    "src": "IMG_8036.JPG",
     "camera": "NIKON D3400",
     "caption": "Coconino National Forest",
     "location": {
@@ -81,10 +87,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8036.JPG"
   },
   {
-    "src": "images/IMG_7799.JPG",
+    "src": "IMG_7799.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
     "location": {
@@ -93,10 +100,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7799.JPG"
   },
   {
-    "src": "images/IMG_8040.JPG",
+    "src": "IMG_8040.JPG",
     "camera": "NIKON D3400",
     "caption": "",
     "location": {
@@ -105,10 +113,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8040.JPG"
   },
   {
-    "src": "images/IMG_7798.JPG",
+    "src": "IMG_7798.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
     "location": {
@@ -117,10 +126,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7798.JPG"
   },
   {
-    "src": "images/IMG_8042.JPG",
+    "src": "IMG_8042.JPG",
     "camera": "NIKON D3400",
     "caption": "Walnut Canyon",
     "location": {
@@ -129,10 +139,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8042.JPG"
   },
   {
-    "src": "images/IMG_8041.JPG",
+    "src": "IMG_8041.JPG",
     "camera": "NIKON D3400",
     "caption": "Petrified Forest National Park",
     "location": {
@@ -141,10 +152,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8041.JPG"
   },
   {
-    "src": "images/IMG_7800.JPG",
+    "src": "IMG_7800.JPG",
     "camera": "NIKON D3400",
     "caption": "Daintree National Rainforest",
     "location": {
@@ -153,10 +165,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7800.JPG"
   },
   {
-    "src": "images/IMG_7797.JPG",
+    "src": "IMG_7797.JPG",
     "camera": "NIKON D3400",
     "caption": "Royal National Park",
     "location": {
@@ -165,10 +178,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7797.JPG"
   },
   {
-    "src": "images/IMG_8024.jpg",
+    "src": "IMG_8024.jpg",
     "camera": "iPhone",
     "caption": "Eclipse",
     "location": {
@@ -177,10 +191,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_8024.jpg"
   },
   {
-    "src": "images/IMG_7801.JPG",
+    "src": "IMG_7801.JPG",
     "camera": "NIKON D3400",
     "caption": "Daintree National Rainforest",
     "location": {
@@ -189,10 +204,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7801.JPG"
   },
   {
-    "src": "images/IMG_5581.jpg",
+    "src": "IMG_5581.jpg",
     "camera": "iPhone",
     "caption": "Rose Garden",
     "location": {
@@ -201,10 +217,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_5581.jpg"
   },
   {
-    "src": "images/IMG_2349.jpg",
+    "src": "IMG_2349.jpg",
     "camera": "NIKON D3400",
     "caption": "Valley of Fire",
     "location": {
@@ -213,10 +230,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2349.jpg"
   },
   {
-    "src": "images/IMG_0124.jpg",
+    "src": "IMG_0124.jpg",
     "camera": "iPhone",
     "caption": "Cholla Cactus Garden, Joshua Tree National Park",
     "location": {
@@ -225,10 +243,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0124.jpg"
   },
   {
-    "src": "images/IMG_2444.jpg",
+    "src": "IMG_2444.jpg",
     "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
     "location": {
@@ -237,10 +256,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2444.jpg"
   },
   {
-    "src": "images/IMG_2324.jpg",
+    "src": "IMG_2324.jpg",
     "camera": "NIKON D3400",
     "caption": "Valley of Fire",
     "location": {
@@ -249,10 +269,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2324.jpg"
   },
   {
-    "src": "images/IMG_7328.jpg",
+    "src": "IMG_7328.jpg",
     "camera": "NIKON D3400",
     "caption": "Torrey Pines State Park",
     "location": {
@@ -261,10 +282,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7328.jpg"
   },
   {
-    "src": "images/IMG_2534.jpg",
+    "src": "IMG_2534.jpg",
     "camera": "NIKON D3400",
     "caption": "Capitol Reef National Park",
     "location": {
@@ -273,10 +295,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2534.jpg"
   },
   {
-    "src": "images/IMG_2408.jpg",
+    "src": "IMG_2408.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
@@ -285,10 +308,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2408.jpg"
   },
   {
-    "src": "images/IMG_2432.jpg",
+    "src": "IMG_2432.jpg",
     "camera": "iPhone",
     "caption": "Bryce Canyon National Park",
     "location": {
@@ -297,10 +321,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2432.jpg"
   },
   {
-    "src": "images/IMG_4925.jpg",
+    "src": "IMG_4925.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
@@ -309,10 +334,11 @@
     },
     "tags": [
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_4925.jpg"
   },
   {
-    "src": "images/IMG_0114(1).jpg",
+    "src": "IMG_0114(1).jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -321,10 +347,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0114(1).jpg"
   },
   {
-    "src": "images/IMG_2569.jpg",
+    "src": "IMG_2569.jpg",
     "camera": "iPhone",
     "caption": "Arches National Park",
     "location": {
@@ -333,10 +360,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2569.jpg"
   },
   {
-    "src": "images/IMG_0116.jpg",
+    "src": "IMG_0116.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -345,10 +373,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0116.jpg"
   },
   {
-    "src": "images/IMG_0428.jpg",
+    "src": "IMG_0428.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -357,10 +386,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0428.jpg"
   },
   {
-    "src": "images/IMG_0111.jpg",
+    "src": "IMG_0111.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -369,10 +399,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0111.jpg"
   },
   {
-    "src": "images/IMG_3829.jpg",
+    "src": "IMG_3829.jpg",
     "camera": "iPhone",
     "caption": "White Mountains National Forest",
     "location": {
@@ -381,10 +412,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_3829.jpg"
   },
   {
-    "src": "images/IMG_6700.jpg",
+    "src": "IMG_6700.jpg",
     "camera": "iPhone",
     "caption": "Rocky Mountain National Park",
     "location": {
@@ -393,10 +425,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_6700.jpg"
   },
   {
-    "src": "images/IMG_3838.jpg",
+    "src": "IMG_3838.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
@@ -405,10 +438,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_3838.jpg"
   },
   {
-    "src": "images/IMG_0470.jpg",
+    "src": "IMG_0470.jpg",
     "camera": "NIKON D3400",
     "caption": "Sequoia National Park",
     "location": {
@@ -417,10 +451,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0470.jpg"
   },
   {
-    "src": "images/IMG_0419.jpg",
+    "src": "IMG_0419.jpg",
     "camera": "NIKON D3400",
     "caption": "Moro Rock",
     "location": {
@@ -429,10 +464,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0419.jpg"
   },
   {
-    "src": "images/IMG_0445.jpg",
+    "src": "IMG_0445.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -441,10 +477,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0445.jpg"
   },
   {
-    "src": "images/IMG_0483.jpg",
+    "src": "IMG_0483.jpg",
     "camera": "NIKON D3400",
     "caption": "Kings Canyon National Park",
     "location": {
@@ -453,10 +490,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0483.jpg"
   },
   {
-    "src": "images/IMG_1561.jpg",
+    "src": "IMG_1561.jpg",
     "camera": "iPhone",
     "caption": "Acadia National Park",
     "location": {
@@ -465,30 +503,33 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_1561.jpg"
   },
   {
-    "src": "images/IMG_0459.jpg",
+    "src": "IMG_0459.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "California",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_0459.jpg"
   },
   {
-    "src": "images/IMG_6564.jpg",
+    "src": "IMG_6564.jpg",
     "camera": "iPhone",
     "caption": "White Mountains National Forest",
     "location": {
       "state": "New Hampshire",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_6564.jpg"
   },
   {
-    "src": "images/IMG_2416.PNG",
+    "src": "IMG_2416.PNG",
     "camera": "NIKON D3400",
     "caption": "Zion National Park",
     "location": {
@@ -497,10 +538,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_2416.PNG"
   },
   {
-    "src": "images/IMG_7465.jpg",
+    "src": "IMG_7465.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
@@ -509,10 +551,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7465.jpg"
   },
   {
-    "src": "images/IMG_0118.jpg",
+    "src": "IMG_0118.jpg",
     "camera": "iPhone",
     "caption": "Joshua Tree National Park",
     "location": {
@@ -521,20 +564,22 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0118.jpg"
   },
   {
-    "src": "images/IMG_6418.JPG",
+    "src": "IMG_6418.JPG",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "Nassau",
       "country": "Bahamas"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_6418.JPG"
   },
   {
-    "src": "images/IMG_7386.JPG",
+    "src": "IMG_7386.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
     "location": {
@@ -543,10 +588,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7386.JPG"
   },
   {
-    "src": "images/IMG_7387.JPG",
+    "src": "IMG_7387.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
     "location": {
@@ -555,10 +601,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7387.JPG"
   },
   {
-    "src": "images/IMG_7391.JPG",
+    "src": "IMG_7391.JPG",
     "camera": "iPhone",
     "caption": "Royal National Park",
     "location": {
@@ -567,40 +614,44 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7391.JPG"
   },
   {
-    "src": "images/IMG_7457.JPG",
+    "src": "IMG_7457.JPG",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "Sydney",
       "country": "Australia"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_7457.JPG"
   },
   {
-    "src": "images/IMG_7603.JPG",
+    "src": "IMG_7603.JPG",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "Sydney",
       "country": "Australia"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_7603.JPG"
   },
   {
-    "src": "images/IMG_7983.JPG",
+    "src": "IMG_7983.JPG",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "Arizona",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_7983.JPG"
   },
   {
-    "src": "images/DSC_0041_Original.JPG",
+    "src": "DSC_0041_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
     "location": {
@@ -609,10 +660,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0041_Original.JPG"
   },
   {
-    "src": "images/DSC_0045_Original.JPG",
+    "src": "DSC_0045_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
     "location": {
@@ -621,10 +673,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0045_Original.JPG"
   },
   {
-    "src": "images/IMG_1490.JPG",
+    "src": "IMG_1490.JPG",
     "camera": "NIKON D3400",
     "caption": "",
     "location": {
@@ -633,10 +686,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_1490.JPG"
   },
   {
-    "src": "images/IMG_1491.JPG",
+    "src": "IMG_1491.JPG",
     "camera": "NIKON D3400",
     "caption": "Coconino National Forest",
     "location": {
@@ -645,10 +699,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_1491.JPG"
   },
   {
-    "src": "images/IMG_3522.jpg",
+    "src": "IMG_3522.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
@@ -657,10 +712,11 @@
     },
     "tags": [
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_3522.jpg"
   },
   {
-    "src": "images/DSC_0159_Original.JPG",
+    "src": "DSC_0159_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
     "location": {
@@ -669,10 +725,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0159_Original.JPG"
   },
   {
-    "src": "images/DSC_0165_Original.JPG",
+    "src": "DSC_0165_Original.JPG",
     "camera": "NIKON D3400",
     "caption": "White Mountains National Forest",
     "location": {
@@ -681,10 +738,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0165_Original.JPG"
   },
   {
-    "src": "images/IMG_7616.jpg",
+    "src": "IMG_7616.jpg",
     "camera": "iPhone",
     "caption": "Monadnock State Park",
     "location": {
@@ -693,20 +751,22 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_7616.jpg"
   },
   {
-    "src": "images/Snapseed.jpg",
+    "src": "Snapseed.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "California",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_Snapseed.jpg"
   },
   {
-    "src": "images/DSC_0196_Original(1).JPG",
+    "src": "DSC_0196_Original(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Muir Woods",
     "location": {
@@ -715,10 +775,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0196_Original(1).JPG"
   },
   {
-    "src": "images/DSC_0198_Original(1).JPG",
+    "src": "DSC_0198_Original(1).JPG",
     "camera": "NIKON D3400",
     "caption": "Golden Gate Bridge",
     "location": {
@@ -727,10 +788,11 @@
     },
     "tags": [
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0198_Original(1).JPG"
   },
   {
-    "src": "images/IMG_0316.JPG",
+    "src": "IMG_0316.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
     "location": {
@@ -740,10 +802,11 @@
     "tags": [
       "architecture",
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0316.JPG"
   },
   {
-    "src": "images/IMG_0321.JPG",
+    "src": "IMG_0321.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
     "location": {
@@ -753,10 +816,11 @@
     "tags": [
       "nature",
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0321.JPG"
   },
   {
-    "src": "images/IMG_0356.JPG",
+    "src": "IMG_0356.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
     "location": {
@@ -765,10 +829,11 @@
     },
     "tags": [
       "wildlife"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0356.JPG"
   },
   {
-    "src": "images/IMG_0382.JPG",
+    "src": "IMG_0382.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
     "location": {
@@ -777,10 +842,11 @@
     },
     "tags": [
       "plants"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0382.JPG"
   },
   {
-    "src": "images/IMG_0405.JPG",
+    "src": "IMG_0405.JPG",
     "camera": "Canon EOS R50",
     "caption": "",
     "location": {
@@ -789,10 +855,11 @@
     },
     "tags": [
       "plants"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0405.JPG"
   },
   {
-    "src": "images/DSC_0354.JPG",
+    "src": "DSC_0354.JPG",
     "camera": "NIKON D3400",
     "caption": "Zion National Park",
     "location": {
@@ -801,10 +868,11 @@
     },
     "tags": [
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0354.JPG"
   },
   {
-    "src": "images/DSC_0382.JPG",
+    "src": "DSC_0382.JPG",
     "camera": "NIKON D3400",
     "caption": "Bryce Canyon National Park",
     "location": {
@@ -813,10 +881,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0382.JPG"
   },
   {
-    "src": "images/DSC_0408.JPG",
+    "src": "DSC_0408.JPG",
     "camera": "NIKON D3400",
     "caption": "Bryce Canyon National Park",
     "location": {
@@ -825,10 +894,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_DSC_0408.JPG"
   },
   {
-    "src": "images/IMG_0801.JPG",
+    "src": "IMG_0801.JPG",
     "camera": "Canon EOS R50",
     "caption": "Canyonlands National Park",
     "location": {
@@ -837,10 +907,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0801.JPG"
   },
   {
-    "src": "images/IMG_0930(1).JPG",
+    "src": "IMG_0930(1).JPG",
     "camera": "Canon EOS R50",
     "caption": "Arches National Park",
     "location": {
@@ -849,10 +920,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_0930(1).JPG"
   },
   {
-    "src": "images/IMG_1052.JPG",
+    "src": "IMG_1052.JPG",
     "camera": "Canon EOS R50",
     "caption": "Black Canyon of the Gunnison National Park",
     "location": {
@@ -861,10 +933,11 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMG_1052.JPG"
   },
   {
-    "src": "images/IMGX1321.JPG",
+    "src": "IMGX1321.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Isabella Stewart Gardner Museum",
     "location": {
@@ -874,10 +947,11 @@
     "tags": [
       "nature",
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMGX1321.JPG"
   },
   {
-    "src": "images/IMGX1340.JPG",
+    "src": "IMGX1340.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Isabella Stewart Gardner Museum",
     "location": {
@@ -887,10 +961,11 @@
     "tags": [
       "nature",
       "architecture"
-    ]
+    ],
+    "compressed_src": "compressed_IMGX1340.JPG"
   },
   {
-    "src": "images/IMGX1358.JPG",
+    "src": "IMGX1358.JPG",
     "camera": "FujiFilm X100V",
     "caption": "Cherry Blossoms",
     "location": {
@@ -899,26 +974,29 @@
     },
     "tags": [
       "nature"
-    ]
+    ],
+    "compressed_src": "compressed_IMGX1358.JPG"
   },
   {
-    "src": "images/IMG_5040.jpg",
+    "src": "IMG_5040.jpg",
     "camera": "iPhone",
     "caption": "",
     "location": {
       "state": "Hawaii",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_IMG_5040.jpg"
   },
   {
-    "src": "images/DSC_0156.JPG",
+    "src": "DSC_0156.JPG",
     "camera": "NIKON D3400",
     "caption": "",
     "location": {
       "state": "Hawaii",
       "country": "United States"
     },
-    "tags": []
+    "tags": [],
+    "compressed_src": "compressed_DSC_0156.JPG"
   }
 ]

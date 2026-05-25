@@ -12,6 +12,7 @@ REVIEW_DIR = "review"
 OUTPUT_JSON = "data.json"
 
 SUPPORTED_EXTENSIONS = (".jpg", ".jpeg", ".png")
+COMPRESSED_PREFIX = "compressed_"
 
 photos_data = []
 seen_photos = []
@@ -22,6 +23,27 @@ state_history = set()
 country_history = set()
 title_history = set()
 tag_history = set()
+
+def resize(photo_name: str, scale_factor: float = 0.5):
+    try:
+        output_fname = f"{COMPRESSED_PREFIX}{photo_name}"
+        output_path = os.path.join(PHOTO_DIR, output_fname)
+        photo_path = os.path.join(PHOTO_DIR, photo_name)
+        with Image.open(photo_path) as img:
+            # Calculate new dimensions
+            new_width = int(img.width * scale_factor)
+            new_height = int(img.height * scale_factor)
+            
+            # Resize image using anti-aliasing for better quality
+            resized_img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+            
+            # Save the file (for JPEG, you can add a 'quality' parameter, e.g., quality=85)
+            resized_img.save(output_path)
+            print(f"Resized: {photo_path}")
+
+            return output_fname
+    except Exception as e:
+        print(f"Error processing {photo_path}: {e}")
 
 if os.path.exists(OUTPUT_JSON):
     with open(OUTPUT_JSON, "r+") as f:
@@ -35,6 +57,12 @@ if os.path.exists(OUTPUT_JSON):
             title_history.add(photo["caption"])
             for tag in photo["tags"]:
                 tag_history.add(tag)
+
+            # Added new field
+            fpath = photo.get("compressed_src")
+            if fpath is None:
+                # Make sure the compressed image exists
+                photo["compressed_src"] = resize(photo["src"])
 
 os.makedirs(REVIEW_DIR, exist_ok=True)
 
@@ -87,29 +115,34 @@ for filename in os.listdir(PHOTO_DIR):
     if not filename.lower().endswith(SUPPORTED_EXTENSIONS):
         print(f"Failed to process {filename} due to extension")
         continue
+    if filename.lower().startswith(COMPRESSED_PREFIX):
+        continue
 
-    filepath = os.path.join(PHOTO_DIR, filename)
-    exif = get_exif_data(filepath)
-    date_taken = get_date_taken(exif, filepath)
+    try:
+        exif = get_exif_data(filename)
+        date_taken = get_date_taken(exif, filename)
 
-    files.append((filepath, filename, exif, date_taken))
+        files.append((filename, exif, date_taken))
+    except:
+        pass
 
-files.sort(key=lambda x: x[3])
+files.sort(key=lambda x: x[2])
 total_files = len(files)
 
 
 # 🔁 Process
-for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
+for idx, (filename, exif, _) in enumerate(files, start=1):
     # Check if file is already accounted for
-    if filepath in seen_photos:
+    if filename in seen_photos:
         print(f"Already Seen: {filename}")
         continue
 
     print("\n" + "=" * 50)
     print(progress_bar(idx, total_files))
     print(f"Processing: {filename}")
-    seen_photos.append(filepath)
+    seen_photos.append(filename)
 
+    filepath = os.path.join(PHOTO_DIR, filename)
     preview_image(filepath)
 
     action = input("Keep (Enter) / Move to review (r) / Skip (s): ").strip().lower()
@@ -174,7 +207,8 @@ for idx, (filepath, filename, exif, _) in enumerate(files, start=1):
             "state": state,
             "country": country,
         },
-        "tags": tags
+        "tags": tags,
+        "compressed_src": resize(photo["src"])
     }
 
     photos_data.append(photo_entry)

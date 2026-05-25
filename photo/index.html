@@ -316,7 +316,7 @@
             card.className = "card";
 
             const img = document.createElement("img");
-            img.src = item.src;
+            img.src = "images/" + item.src;
             img.decoding = "async";
             img.loading = "lazy";
 
@@ -399,7 +399,7 @@
         const modalMeta = document.getElementById("modalMeta");
 
         function openModal(item) {
-            modalImg.src = item.src;
+            modalImg.src = "images/" + item.src;
 
             modalMeta.innerHTML = `
             <div>
