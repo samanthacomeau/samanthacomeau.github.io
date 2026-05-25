@@ -7,6 +7,21 @@
     <title>Bucket List</title>
 
     <style>
+        #randomBtn {
+            border: none;
+            background: rgba(255, 255, 255, 0.08);
+            color: #e5e5e5;
+            padding: 10px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.15s ease;
+        }
+
+        #randomBtn:hover {
+            background: rgba(255, 255, 255, 0.14);
+            transform: translateY(-1px);
+        }
+
         /* BACKDROP */
         .modal {
             position: fixed;
@@ -198,6 +213,8 @@
 
     <header>
         <h2>Bucket List</h2>
+        
+        <button id="randomBtn">⇄</button>
     </header>
 
     <div class="grid" id="grid"></div>
@@ -315,6 +332,15 @@
             if (e.target === modal) {
                 closeModal();
             }
+        });
+
+        document.getElementById("randomBtn").addEventListener("click", () => {
+            if (data.length === 0) return;
+
+            const randomItem =
+                data[Math.floor(Math.random() * data.length)];
+
+            openModal(randomItem);
         });
     </script>
 </body>
