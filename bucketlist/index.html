@@ -252,6 +252,7 @@
             try {
                 const response = await fetch("bucket_list.json");
                 data = await response.json();
+                data = data.sort(() => Math.random() - 0.5);
                 render();
             } catch (err) {
                 console.error("Failed to load JSON:", err);

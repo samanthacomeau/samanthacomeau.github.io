@@ -321,6 +321,7 @@
             try {
                 const response = await fetch("data.json");
                 data = await response.json();
+                data = data.sort(() => Math.random() - 0.5);
                 render();
                 populateCameraFilter();
                 populateLocationFilter();
