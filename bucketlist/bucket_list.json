@@ -537,5 +537,34 @@
     "time_required": "half-day",
     "ideas": [],
     "resources": []
+  },
+  {
+    "src": "images/clovers.jpg",
+    "item": "search for four leaf clovers",
+    "season": "any",
+    "cost": "",
+    "location": "home",
+    "time_required": "1 hour",
+    "ideas": [],
+    "resources": []
+  },
+  {
+    "src": "images/national_cooking.jpg",
+    "item": "cook a national dish",
+    "season": "any",
+    "cost": "",
+    "location": "home",
+    "time_required": "half-day",
+    "ideas": [
+      "Australia: Roast Lamb Rules", 
+      "China: Peking Roast Duck",
+      "Costa Rica: Gallo Pinto",
+      "El Salvador: Pupusa",
+      "Fiji: Fijian Kokoda",
+      "Israel: Falafel",
+      "New Zealand: Kiwi Pie",
+      "USA: Hamburger"
+    ],
+    "resources": ["https://worldpopulationreview.com/country-rankings/countries-national-dishes"]
   }
 ]
