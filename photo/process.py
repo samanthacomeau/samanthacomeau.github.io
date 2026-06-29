@@ -118,17 +118,19 @@ for filename in os.listdir(PHOTO_DIR):
     if filename.lower().startswith(COMPRESSED_PREFIX):
         continue
 
+    full_file = os.path.join(PHOTO_DIR, filename)
+
     try:
-        exif = get_exif_data(filename)
-        date_taken = get_date_taken(exif, filename)
+        exif = get_exif_data(full_file)
+        date_taken = get_date_taken(exif, full_file)
 
         files.append((filename, exif, date_taken))
-    except:
-        pass
+    except Exception as e:
+        print(f"Failed to process {filename} with {e}")
 
 files.sort(key=lambda x: x[2])
 total_files = len(files)
-
+print(f"Processing {total_files} files")
 
 # 🔁 Process
 for idx, (filename, exif, _) in enumerate(files, start=1):
@@ -200,7 +202,7 @@ for idx, (filename, exif, _) in enumerate(files, start=1):
             tag_history.add(t)
 
     photo_entry = {
-        "src": filepath.replace("\\", "/"),
+        "src": filename,
         "camera": camera,
         "caption": title,
         "location": {
